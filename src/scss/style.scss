@@ -49,3 +49,9 @@ header {
         }
     }
 }
+
+section {
+    width: 100%;
+    @include flex;
+    overflow: hidden;
+}
